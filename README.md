@@ -1,2 +1,2 @@
-# rsschool-cv
-[Alesia Abaeva - CV](https://alesia-abaeva.github.io/rsschool-cv/cv)
+# rsschool-cv-html
+[Alesia Abaeva - CV - HTML](https://alesia-abaeva.github.io/rsschool-cv/)
