@@ -4,43 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV">
     <link rel="stylesheet" href="style.css">
-    <title>CV - Alesia Abaeva</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');</style>
+    <title>Alesia Abaeva-CV</title>
 </head>
-<body>
-<div class="container">
-    <div class="info-block">
-        <h1 class="header1">Alesia Abaeva</h1>
-        <p>Krasnodar - Maykop</p>
+<body class="page">
+    <header class="header-menu">
+        <nav>
+            <ul class="list-menu">
+                <li class="nav_item"><a class="links" href="#about-me">About</a></li>
+                <li class="nav_item"><a class="links" href="#contacts">Contacts</a></li> 
+                <li class="nav_item"><a class="links" href="#skills">Skills</a></li>
+                <li class="nav_item"><a class="links" href="#education">Education</a></li>
+                <li class="nav_item"><a class="links" href="#languages">Languages</a></li>
+                <!-- добавить ссылки!!!! -->
+            </ul>
+        </nav>       
+    </header>
+    
+    
+    <main class="main">
+        <div class="title">
+        <h1>ALESIA ABAEVA</h1>
+        <p>Future Frontend Developer</p>
+        </div>
+        <div class="mainBlock">
+        <div class="leftBlock">
+            <div class="fotoLine">
+            <img class="foto" src="/img/avatar-cv-black-1.jpg" alt="foto">
+            </div>
+            <section class="card left" id="contacts">
+                <h2>CONTACTS</h2>
+                <div class="contacts">
+                    <p><strong>Phone:</strong> +7 928 463 05 65</p>
+                    <p><strong>E-mail:</strong> alesya.abaeva@gmail.com</p>
+                    <p><strong>Telegram:</strong> <a class="linkContacts" href="https://t.me/alesia_abaeva" target="_blank">alesia_abaeva</a></p>
+                    <p><strong>GitHub:</strong><a class="linkContacts" href="https://github.com/Alesia-Abaeva" target="_blank"> alesia-abaeva</a></p>
+                    <p><strong>Location:</strong> Krasnodar/Russia</p>
+                </div>
+            </section>
+            <section class="card left" id="education">
+                <h2>EDUCATION</h2>
+                <ul class="lists">
+                    <li><strong>Adygea State University</strong></li>
+                    <li><strong>Courses</strong>
+                        <ul class="listsLi">
+                            <li><a class="links linkEd" href="https://vladilen.ru/beginner">HTML&CSS step 1</a></li>
+                            <li><a class="links linkEd" href="https://www.youtube.com/watch?v=Bluxbh9CaQ0&t=1602s">JavaScript Basics for Beginners</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+        <div class="rightBlock">
+            <section class="card" id="about-me">
+                <hr class="line">
+                <h2>ABOUT ME</h2>
+                <p>My career started with the setup and implementation of CRM systems. After a couple of months, I realized that it's not enough just to understand the computer well. You need to be able to edit the source code.</p>
+                <p>At first, my colleagues helped me, showed me where and what to fix. Then I realized I wanted to know more. But then my training had to be postponed, as I was promoted to Deputy General Director. Having been in this position for more than three years, I entered the department and now I can fully devote myself to studying really interesting things for me.</p>
+                <p>In general, may the force come with me on this difficult path.</p>
+            </section>
+
+            <section class="card skillsMain" id="skills">
+                <hr class="line">
+                <h2>SKILLS</h2>
+                <p>HTML</p>
+                <div class="containerColor">
+                    <div class="skills html">70%</div>
+                </div>
+                <p>CSS</p>
+                <div class="containerColor">
+                    <div class="skills css">45%</div>
+                </div>
+                <p>JavaScript</p>
+                <div class="containerColor">
+                    <div class="skills java">40%</div>
+                </div>
+                <p>Git&Github</p>
+                <div class="containerColor">
+                    <div class="skills git">55%</div>
+                </div>
+                <p>Figma</p>
+                <div class="containerColor">
+                    <div class="skills figma">80%</div>
+                </div>
+            </section>
+
+
+        <section class="section-code card" id="code">
+            <hr class="line">
+            <h2>CODE EXAMPLE</h2>
+            <pre class="pre">
+            <code class="code">            
+    let arr = ['a', 'b', 'c', 'd', 'e']
+    let arrRevers = []
+    for( let i = arr.length - 1; i >= 0; i--){
+            arrRevers.push(arr[i])}
+    console.log(arrRevers) 
+        </code>
+            </pre>
+        </section>
+
+        <section class="card" id="languages">
+            <hr class="line">
+            <h2>LANGUAGES</h2>
+            <div class="lists">
+            <ul class="listsLanguages">
+                <li>Russian native</li>
+                <li>English A2</li>                
+            </ul>
+            </div>
+        </section>
     </div>
-    <div class="text-block">
-        <h2 class="header2">About me</h2>
-        <p>My career started with the setup and implementation of CRM systems. After a couple of months, I realized that it's not enough just to understand the computer well. You need to be able to edit the source code.</p>
-        <p>At first, my colleagues helped me, showed me where and what to fix. Then I realized I wanted to know more. But then my training had to be postponed, as I was promoted to Deputy General Director. Having been in this position for more than three years, I entered the department and now I can fully devote myself to studying really interesting things for me.</p>
-        <p>In general, may the force come with me on this difficult path.</p>
     </div>
-    <div class="contact-block">
-        <h2 class="header2">Contact information</h2>
-        <p>Phone: +7 928 463 05 65</p>
-        <p>E-mail:alesya.abaeva@gmail.com</p>
-        <p>Telegram: @alesia_abaeva</p>
-        <p>GitHub: alesia-abaeva</p>
-    </div>
-    <div>
-        <h2 class="header2">Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </div>
-    <div>
-        <h2 class="header2">Languages</h2>
-        <ul>
-            <li>Russian</li>
-            <li>English (A2)</li>
-        </ul>
-    </div>
-</div>
+    </main>
+
+    <footer class="footer">
+        <a href="https://github.com/Alesia-Abaeva" target="_blank" class="links"><img class="logoRs" src="/img/Github-Logo.png" alt="logo github"></a>
+        <p><strong>2022</strong></p>
+         <a href="https://rs.school/js/" target="_blank" class="links"><img class="logoRs" src="/img/rsSchool.png" alt="logo rs-school"></a>
+    </footer>
+
 </body>
 </html>
