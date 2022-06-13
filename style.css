@@ -26,7 +26,6 @@
     background-color: #0000001a
 }
 
-
 .list-menu {
     display: flex;
     flex-wrap: wrap;
@@ -58,8 +57,6 @@
     width: 57%;
 }
 
-
-
 .foto {
     width: 450px;
     max-width: 100%;
@@ -70,8 +67,6 @@
     width: 100%;
     margin-bottom: 20px;
    }
-
-   /* 520px */
 
 .fotoLine::before{
     display: block;
@@ -120,7 +115,7 @@
 
 .containerColor {
     width: 100%;
-    background-color: #8e8e8e; /* изменить цвет большой шкалы */
+    background-color: #8e8e8e;
     margin-bottom: 3px;
 }
 
@@ -129,7 +124,6 @@
     padding-right: 20px;
     line-height: 25px;
     color: #d2b6fb
-    /* rgb(221, 221, 221); */
 }
 
 .html{
@@ -157,7 +151,6 @@
     background-color: #333333;
 }
 
-
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -168,12 +161,9 @@
     text-align: center
 }
 
-
-/* ссылки */
-
 .nav_item{
-padding-left: 10px;
-padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .links{
@@ -213,13 +203,10 @@ padding-right: 10px;
     text-decoration: underline;
 }
 
-
 .linkEd:active{
     color: #ffffff;
     text-decoration: none;
 }
-
-
 
 .nav_item:hover{
     background-color: #6608f7;
@@ -277,6 +264,7 @@ padding-right: 10px;
     .rightBlock {
         width: 100%;
     }
+
     .foto {
         width: auto;
         max-width: 100%; 
@@ -290,7 +278,5 @@ padding-right: 10px;
         display: block;
         width: 100%;
         height:auto;
-    }
-    
-    
+    }     
 }
