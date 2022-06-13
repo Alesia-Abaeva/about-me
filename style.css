@@ -1,21 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
-.container{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.mainBlock {
+    display: flex;
+    gap: 1px; 
 }
 
-.text-block{
-    background-color: bisque;
+.page {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000000;
+    max-width: 1000px;
+    margin: auto;
+          
+} 
+
+.header-menu{
+    background-color: #0000001a
+}
+
+.list-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    padding-top: 30px;
+    width: 43%;
+    text-align: center;
+    background-color: #fafefd;
+}
+
+.leftBlock {
+    width: 43%;
+    background-color: #000000;
+    color: #f5f5f5;
+}
+
+.contacts{
+    line-height: 25px;
+}
+
+.rightBlock {
+    background-color: #fafefd;
+    width: 57%;
+}
+
+.foto {
+    width: 450px;
+    max-width: 100%;
+   }
+
+.fotoLine{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+   }
+
+.fotoLine::before{
     display: block;
-    width: auto;  
-    height: auto;
-
+    content: '';
+    width: 100%;
+    height:150px;
+    background: linear-gradient(to top left, #000000 50%, #06060600 1%);    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(-5%);
 }
 
-.header2:hover{
-    background-color: aquamarine;
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 0px 45px 45px 45px;
+    margin-bottom: 10px;
+    line-height: 20px; 
+}
+
+.lists{
+    padding-left: 17px;
+    line-height: 25px;
+    list-style-type: square
+}
+
+.listsLi{
+    margin-left: 15px;
+    }
+
+.listsLanguages{
+    list-style-type: square
+}
+
+.line {
+    margin-bottom: 45px;
+    padding: 0;
+    height: 6px;
+    border: none;
+    background: linear-gradient(45deg, #333333, #ddd);
+}
+
+.containerColor {
+    width: 100%;
+    background-color: #8e8e8e;
+    margin-bottom: 3px;
+}
+
+.skills{
+    text-align: right;
+    padding-right: 20px;
+    line-height: 25px;
+    color: #d2b6fb
+}
+
+.html{
+    width: 70%;
+    background-color: #333333;
+}
+
+.css{
+    width: 45%;
+    background-color: #333333;
+}
+
+.java{
+    width: 40%;
+    background-color: #333333;
+}
+
+.git{
+    width: 55%;
+    background-color: #333333;
+}
+
+.figma{
+    width: 80%;
+    background-color: #333333;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: #ffffff;
+    background-color: #17191d;
+    text-align: center
+}
+
+.nav_item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links{
+    color: #000000;
+    text-decoration:none;
+}
+
+
+.links:visited{
+    color: #000000;
+    text-decoration: none;
+}
+
+.links:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.links:active{
+    color: #000000;
+    text-decoration: none;
+} 
+
+.linkEd{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.linkEd:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.linkEd:hover{
+    color: #9955ff;
+    text-decoration: underline;
+}
+
+.linkEd:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav_item:hover{
+    background-color: #6608f7;
+    text-decoration: none;
+}
+
+.linkContacts{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.linkContacts:visited{
+    color: #f0f8ff;
+}
+
+.linkContacts:hover{
+    color: #6608f7;
+}
+
+.logoRs {
+    height: auto;
+    width: 36%;
+}
+
+.listLanguage{
+    margin-left: 15px;
+    width: 100%;
+}
+
+.code{
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 800px){
+    .mainBlock {
+        display: block;
+    }
+
+    .title{
+        width: 100%;
+    }
+    .list-menu {
+        display: block;
+        height: auto;
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    } 
+    .leftBlock {
+        width: 100%;
+    }
+    
+    .rightBlock {
+        width: 100%;
+    }
+
+    .foto {
+        width: auto;
+        max-width: 100%; 
+       }
+    
+    .fotoLine{
+        width: 100%;
+    }
+          
+    .fotoLine::before{
+        display: block;
+        width: 100%;
+        height:auto;
+    }     
 }
