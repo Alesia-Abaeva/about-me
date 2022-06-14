@@ -167,50 +167,26 @@
 }
 
 .links{
-    color: #000000;
     text-decoration:none;
+    color: inherit;
 }
 
-
-.links:visited{
-    color: #000000;
-    text-decoration: none;
-}
-
-.links:hover{
+.nav_item:hover{
+    background-color: #6608f7;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
-
-
-.links:active{
-    color: #000000;
-    text-decoration: none;
-} 
 
 .linkEd{
     color: #ffffff;
     text-decoration: none;
 }
 
-.linkEd:visited{
-    color: #ffffff;
-    text-decoration: none;
-}
 
 .linkEd:hover{
     color: #9955ff;
     text-decoration: underline;
-}
-
-.linkEd:active{
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.nav_item:hover{
-    background-color: #6608f7;
-    text-decoration: none;
 }
 
 .linkContacts{
@@ -218,12 +194,10 @@
     color: #ffffff;
 }
 
-.linkContacts:visited{
-    color: #f0f8ff;
-}
 
 .linkContacts:hover{
-    color: #6608f7;
+    color: #9955ff;
+    text-decoration: underline;
 }
 
 .logoRs {
