@@ -18,7 +18,7 @@
                 <li class="nav_item"><a class="links" href="#skills">Skills</a></li>
                 <li class="nav_item"><a class="links" href="#education">Education</a></li>
                 <li class="nav_item"><a class="links" href="#languages">Languages</a></li>
-                <!-- добавить ссылки!!!! -->
+                
             </ul>
         </nav>       
     </header>
@@ -39,9 +39,16 @@
                 <div class="contacts">
                     <p><strong>Phone:</strong> +7 928 463 05 65</p>
                     <p><strong>E-mail:</strong> alesya.abaeva@gmail.com</p>
-                    <p><strong>Telegram:</strong> <a class="linkContacts" href="https://t.me/alesia_abaeva" target="_blank">alesia_abaeva</a></p>
-                    <p><strong>GitHub:</strong><a class="linkContacts" href="https://github.com/Alesia-Abaeva" target="_blank"> alesia-abaeva</a></p>
                     <p><strong>Location:</strong> Krasnodar/Russia</p>
+                    <div class="social-dots">
+                        <!-- <div class="dots inst"><a href="https://github.com/Alesia-Abaeva" target="_blank"></a></div> -->
+                        <div class="dots"><a  href="https://t.me/alesia_abaeva" target="_blank"><img class="social-dots" src="./img/telegram.svg" alt=""></a></div>
+                        <div class="dots"><a  href="https://vk.com/alesia.abaeva" target="_blank"><img class="social-dots" src="./img/vk.svg" alt=""></a></div>
+                        <div class="dots"><a  href="https://github.com/Alesia-Abaeva" target="_blank"><img class="social-dots" src="./img/github (2).svg" alt=""></a></div>
+                    </div>
+
+                    <!-- <p><strong>Telegram:</strong> <a class="linkContacts" href="https://t.me/alesia_abaeva" target="_blank">alesia_abaeva</a></p>
+                    <p><strong>GitHub:</strong><a class="linkContacts" href="https://github.com/Alesia-Abaeva" target="_blank"> alesia-abaeva</a></p> -->
                 </div>
             </section>
             <section class="card left" id="education">
@@ -49,12 +56,27 @@
                 <ul class="lists">
                     <li><strong>Adygea State University</strong></li>
                     <li><strong>Courses</strong>
-                        <ul class="listsLi">
-                            <li><a class="links linkEd" href="https://vladilen.ru/beginner" target="_blank">HTML&CSS step 1</a></li>
-                            <li><a class="links linkEd" href="https://www.youtube.com/watch?v=Bluxbh9CaQ0&t=1602s" target ="_blank">JavaScript Basics for Beginners</a></li>
+                        <ul class="lists-block">
+                            <li><a class="lists-elements" href="https://vladilen.ru/beginner" target="_blank">HTML&CSS step 1</a></li>
+                            <li><a class="lists-elements" href="https://www.youtube.com/watch?v=Bluxbh9CaQ0&t=1602s" target ="_blank">JavaScript Basics for Beginners</a></li>
                             
                         </ul>
                     </li>
+                    <li><strong>RS School</strong>
+                        <ul class="lists-block">
+                              <li><a class="lists-elements" href="https://rs.school/js-stage0/" target="_blank">JavaScript/Front-end.Stage 0</a></li>   
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="card left" id="proecrs">
+                <h2>PROJECTS</h2>
+                <ul class="lists-block project">
+                    <li><a class="lists-elements" href="https://alesia-abaeva.github.io/travel/" target ="_blank">Travel</a></li>
+                    <li><a class="lists-elements" href="https://rolling-scopes-school.github.io/alesia-abaeva-JSFEPRESCHOOL2022Q2/momentum/" target ="_blank">Momentum</a></li>
+                    <li><a class="lists-elements" href="https://alesia-abaeva.github.io/Eldritch-Horror-Codejam/" target ="_blank">Eldritch Horror</a></li>
+                    <!-- <li><a class="lists-elements" href="https://alesia-abaeva.github.io/travel/" target ="_blank">Slider</a></li> -->
                 </ul>
             </section>
 
@@ -73,15 +95,15 @@
                 <h2>SKILLS</h2>
                 <p>HTML</p>
                 <div class="containerColor">
-                    <div class="skills html">70%</div>
+                    <div class="skills html">75%</div>
                 </div>
                 <p>CSS</p>
                 <div class="containerColor">
-                    <div class="skills css">45%</div>
+                    <div class="skills css">55%</div>
                 </div>
                 <p>JavaScript</p>
                 <div class="containerColor">
-                    <div class="skills java">40%</div>
+                    <div class="skills java">45%</div>
                 </div>
                 <p>Git&Github</p>
                 <div class="containerColor">
@@ -99,13 +121,11 @@
             <h2>CODE EXAMPLE</h2>
             <pre class="pre">
             <code class="code">            
-    let arr = ['a', 'b', 'c', 'd', 'e']
-    let arrRevers = []
-    for( let i = arr.length - 1; i >= 0; i--){
-            arrRevers.push(arr[i])}
-    console.log(arrRevers) 
-        </code>
-            </pre>
+ let arr = ['a', 'b', 'c', 'd', 'e']
+ let arrRevers = []
+ for( let i = arr.length - 1; i >= 0; i--){
+    arrRevers.push(arr[i])}
+ console.log(arrRevers)</code></pre>
         </section>
 
         <section class="card" id="languages">
@@ -123,9 +143,10 @@
     </main>
 
     <footer class="footer">
-        <a href="https://github.com/Alesia-Abaeva" target="_blank" class="links"><img class="logoRs" src="./img/Github-Logo.png" alt="logo github"></a>
+        
+        <a href="https://github.com/Alesia-Abaeva" target="_blank" class="links github-links"></a>
         <p><strong>2022</strong></p>
-         <a href="https://rs.school/js/" target="_blank" class="links"><img class="logoRs" src="./img/rsSchool.png" alt="logo rs-school"></a>
+         <a href="https://rs.school/js/" target="_blank" class="links  rs-school-links"></a>
     </footer>
 
 </body>
